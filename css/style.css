@@ -124,12 +124,12 @@ a:hover {
   display: flex;
   align-items: center;
   margin-top: 1.5rem;
+  gap: 1rem;
 }
 
 .social-links a {
-  margin-right: 1rem;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
   display: inline-block;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .social-links img {
