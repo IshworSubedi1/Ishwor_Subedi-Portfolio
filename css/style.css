@@ -119,6 +119,31 @@ a:hover {
   color: #fff;
 }
 
+/* Social Links */
+.social-links {
+  display: flex;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.social-links a {
+  margin-right: 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: inline-block;
+}
+
+.social-links img {
+  width: 30px;
+  height: 30px;
+  filter: invert(29%) sepia(96%) saturate(408%) hue-rotate(185deg) brightness(91%) contrast(88%);
+  transition: transform 0.3s ease;
+}
+
+.social-links a:hover {
+  transform: perspective(400px) rotateX(10deg) rotateY(10deg) scale(1.1);
+  box-shadow: 0 8px 20px rgba(0, 122, 204, 0.3);
+}
+
 /* Skills Section */
 .skills-grid {
   display: grid;
@@ -230,5 +255,9 @@ a:hover {
 
   .nav-list li {
     margin: 0.5rem 0;
+  }
+
+  .social-links {
+    justify-content: center;
   }
 }
